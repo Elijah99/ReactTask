@@ -1,0 +1,7 @@
+.Main {
+    grid-area: main;
+    background: #c0c0c0;
+    min-height: calc(100vh - 112px);
+    display: flex;
+    justify-content: center;
+}

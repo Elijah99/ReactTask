@@ -1,0 +1,24 @@
+.Login {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    width: 30%;
+    min-width: 440px;
+    height: 50%;
+    min-height: 380px;
+    background: white;
+    border-radius: 1rem;
+    padding-block: 15px;
+    align-self: center;
+}
+
+.Login-title {
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.Login-button{
+    align-self: center;
+}

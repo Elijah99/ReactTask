@@ -1,0 +1,47 @@
+/* Styles for selected tags */
+.ReactTags__tags {
+  position: relative;
+}
+
+.ReactTags__clearAll {
+  cursor: pointer;
+  padding: 10px;
+  margin: 10px;
+  background: #f88d8d;
+  color: #fff;
+  border: none;
+}
+
+/* Styles for the input */
+.ReactTags__tagInput {
+  display: none;
+}
+
+/* Styles for selected tags */
+.ReactTags__selected span.ReactTags__tag {
+  border: 1px solid #ddd;
+  background: #63bcfd;
+  color: white;
+  font-size: 12px;
+  display: inline-block;
+  padding: 5px;
+  margin: 0 5px;
+  border-radius: 2px;
+}
+
+.ReactTags__selected span.ReactTags__tag:first-child {
+  margin-left: 0px;
+}
+
+.ReactTags__selected a.ReactTags__remove {
+  color: #aaa;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.ReactTags__remove {
+  border: none;
+  cursor: pointer;
+  background: none;
+  color: white;
+}
