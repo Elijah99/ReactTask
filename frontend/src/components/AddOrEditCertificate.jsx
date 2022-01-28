@@ -6,7 +6,7 @@ import TagsContainer from "../containers/TagsContainer";
 import { Formik } from "formik";
 import * as yup from "yup";
 
-const AddCertificate = (props) => {
+const AddOrEditCertificate = (props) => {
     const [show, setShow] = useState(false);
 
     const handleShow = () => {
@@ -185,4 +185,4 @@ const AddCertificate = (props) => {
     )
 }
 
-export default AddCertificate;
+export default AddOrEditCertificate;

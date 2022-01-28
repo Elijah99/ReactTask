@@ -1,6 +1,6 @@
 import { createCertificate, deleteTags } from "../action/createActions";
 import { connect } from "react-redux";
-import AddCertificate from "../components/AddCertificate";
+import AddOrEditCertificate from "../components/AddOrEditCertificate";
 
 const mapStateToProps = state => ({
     certificates: state.certificates,
@@ -19,4 +19,4 @@ const mapDispatchToProps = dispatch => ({
     }
 });
 
-export default connect(mapStateToProps, mapDispatchToProps)(AddCertificate);
+export default connect(mapStateToProps, mapDispatchToProps)(AddOrEditCertificate);
