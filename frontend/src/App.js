@@ -13,7 +13,7 @@ import {
 } from "./reducers/reducers";
 import { Provider } from "react-redux";
 import LoginContainer from "./containers/LoginContainer";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
 import storage from 'redux-persist/lib/storage';
 import { persistReducer, persistStore } from 'redux-persist';
 import { PersistGate } from 'redux-persist/integration/react'
@@ -57,7 +57,7 @@ function App() {
         <Provider store={store}>
             <PersistGate loading={null} persistor={persistor}>
                 <div className="App">
-                    <BrowserRouter>
+                    <HashRouter>
                         <Header />
                         <Main>
                             <Routes>
@@ -67,7 +67,7 @@ function App() {
                             </Routes>
                         </Main>
                         <Footer />
-                    </BrowserRouter>
+                    </HashRouter>
                 </div>
             </PersistGate>
         </Provider>
