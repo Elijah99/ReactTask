@@ -1,0 +1,8 @@
+.Footer {
+    grid-area: footer;
+    height: 56px;
+    color: white;
+    font-size: large;
+    text-align: center;
+    padding-block: 15px;
+}
